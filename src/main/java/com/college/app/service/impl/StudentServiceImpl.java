@@ -1,4 +1,4 @@
-package com.service.impl;
+package com.college.app.service.impl;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -11,9 +11,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.dao.StudentDao;
-import com.model.Student;
-import com.service.StudentService;
+import com.college.app.dao.StudentDao;
+import com.college.app.model.Student;
+import com.college.app.service.StudentService;
 
 @Service
 @Transactional

@@ -1,4 +1,4 @@
-package com.controller;
+package com.college.app.controller;
 
 import java.util.Collection;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.model.Student;
-import com.service.StudentService;
+import com.college.app.model.Student;
+import com.college.app.service.StudentService;
 
 @RestController
 public class StudentController {

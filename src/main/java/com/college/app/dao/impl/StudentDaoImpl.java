@@ -1,4 +1,4 @@
-package com.dao.impl;
+package com.college.app.dao.impl;
 
 import java.util.Collection;
 
@@ -8,8 +8,8 @@ import javax.persistence.Query;
 
 import org.springframework.stereotype.Repository;
 
-import com.dao.StudentDao;
-import com.model.Student;
+import com.college.app.dao.StudentDao;
+import com.college.app.model.Student;
 
 @Repository
 public class StudentDaoImpl implements StudentDao{

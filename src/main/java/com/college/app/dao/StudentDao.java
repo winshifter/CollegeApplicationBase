@@ -1,10 +1,10 @@
-package com.service;
+package com.college.app.dao;
 
 import java.util.Collection;
 
-import com.model.Student;
+import com.college.app.model.Student;
 
-public interface StudentService {
+public interface StudentDao {
 	Collection<Student> find();
 	Student load(Long id);
 	Student persist(Student student);

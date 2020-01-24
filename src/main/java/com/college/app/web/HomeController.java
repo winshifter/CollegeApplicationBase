@@ -1,4 +1,4 @@
-package com.web;
+package com.college.app.web;
 
 import java.text.DateFormat;
 import java.util.Date;
